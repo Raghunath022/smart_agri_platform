@@ -124,4 +124,42 @@ function analysePlantHealth(data) {
   };
 }
 
+// ─── Internal Auto-Simulation Loop (Runs always to keep telemetry alive) ─────
+function generateAutoTelemetry() {
+  const timestamp = new Date().toISOString();
+  // Generate random stable normal parameters
+  const temp = +(22 + Math.random() * 4).toFixed(1);
+  const humidity = +(60 + Math.random() * 15).toFixed(1);
+  const n = Math.floor(110 + Math.random() * 20);
+  const p = Math.floor(25 + Math.random() * 10);
+  const k = Math.floor(85 + Math.random() * 20);
+  const do_mg = +(6.5 + Math.random()).toFixed(2);
+  const voltage = Math.floor(45 + Math.random() * 10);
+  const plant_status = "Healthy";
+
+  const payload = {
+    timestamp,
+    received_at: timestamp,
+    temperature_humidity: { temperature_c: temp, humidity_percent: humidity },
+    npk: { nitrogen_mg_kg: n, phosphorus_mg_kg: p, potassium_mg_kg: k },
+    dissolved_oxygen: { do_mg_l: do_mg },
+    bioelectrical: { voltage_mv: voltage, plant_status }
+  };
+
+  payload.analysis = analysePlantHealth(payload);
+
+  sensorHistory.push(payload);
+  if (sensorHistory.length > MAX_HISTORY) {
+    sensorHistory.shift();
+  }
+}
+
+// Generate 15 initial history readings immediately so charts look populated on startup
+for (let i = 0; i < 15; i++) {
+  generateAutoTelemetry();
+}
+
+// Auto-run every 5 seconds to keep the telemetry timeline ticking
+setInterval(generateAutoTelemetry, 5000);
+
 module.exports = router;
