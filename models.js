@@ -45,6 +45,37 @@ const PredictionSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now }
 });
 
+// IoT Telemetry Schema
+const TelemetrySchema = new mongoose.Schema({
+  timestamp: { type: Date, required: true, index: true },
+  received_at: { type: Date, default: Date.now },
+  temperature_humidity: {
+    temperature_c: Number,
+    humidity_percent: Number
+  },
+  npk: {
+    nitrogen_mg_kg: Number,
+    phosphorus_mg_kg: Number,
+    potassium_mg_kg: Number
+  },
+  dissolved_oxygen: {
+    do_mg_l: Number
+  },
+  bioelectrical: {
+    voltage_mv: Number,
+    plant_status: String
+  },
+  analysis: {
+    severity: String,
+    plant_status: String,
+    primary_suggestion: {
+      code: String,
+      text: String
+    },
+    all_suggestions: [Object]
+  }
+});
+
 // Register models
 if (!mongoose.models.User) {
   mongoose.model('User', UserSchema);
@@ -52,8 +83,12 @@ if (!mongoose.models.User) {
 if (!mongoose.models.Prediction) {
   mongoose.model('Prediction', PredictionSchema);
 }
+if (!mongoose.models.Telemetry) {
+  mongoose.model('Telemetry', TelemetrySchema);
+}
 
 module.exports = {
   UserSchema,
-  PredictionSchema
+  PredictionSchema,
+  TelemetrySchema
 };

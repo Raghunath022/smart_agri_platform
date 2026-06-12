@@ -1,13 +1,10 @@
 const express = require('express');
 const router = express.Router();
-
-// In-memory store (replace with DB later — MongoDB, PostgreSQL, etc.)
-let sensorHistory = [];
-const MAX_HISTORY = 100; // keep last 100 readings in memory
+const { telemetry } = require('./database');
 
 // ─── POST /api/sensor-data ───────────────────────────────────────────────────
 // Receives data from the hardware / simulator
-router.post('/sensor-data', (req, res) => {
+router.post('/sensor-data', async (req, res) => {
   const data = req.body;
 
   // Basic validation
@@ -21,36 +18,49 @@ router.post('/sensor-data', (req, res) => {
   // Analyse and attach suggestions
   data.analysis = analysePlantHealth(data);
 
-  // Store in memory (ring buffer)
-  sensorHistory.push(data);
-  if (sensorHistory.length > MAX_HISTORY) {
-    sensorHistory.shift();
+  try {
+    const saved = await telemetry.create(data);
+
+    console.log(
+      `[SENSOR] ${data.timestamp} | ` +
+      `Temp: ${data.temperature_humidity.temperature_c}°C | ` +
+      `Plant: ${data.bioelectrical?.plant_status} | ` +
+      `Suggestion Code: ${data.analysis.primary_suggestion.code}`
+    );
+
+    res.status(200).json({ status: 'ok', analysis: data.analysis });
+  } catch (err) {
+    console.error('Error saving telemetry:', err);
+    res.status(500).json({ error: 'Failed to save telemetry' });
   }
-
-  console.log(
-    `[SENSOR] ${data.timestamp} | ` +
-    `Temp: ${data.temperature_humidity.temperature_c}°C | ` +
-    `Plant: ${data.bioelectrical?.plant_status} | ` +
-    `Suggestion Code: ${data.analysis.primary_suggestion.code}`
-  );
-
-  res.status(200).json({ status: 'ok', analysis: data.analysis });
 });
 
 
 // ─── GET /api/sensor-data ────────────────────────────────────────────────────
 // Frontend fetches this to display latest readings
-router.get('/sensor-data', (req, res) => {
-  const latest = sensorHistory[sensorHistory.length - 1] || null;
-  res.json({ latest, history: sensorHistory });
+router.get('/sensor-data', async (req, res) => {
+  try {
+    const history = await telemetry.find(100);
+    const latest = history[history.length - 1] || null;
+    res.json({ latest, history });
+  } catch (err) {
+    console.error('Error loading telemetry history:', err);
+    res.status(500).json({ error: 'Failed to load telemetry history' });
+  }
 });
 
 
 // ─── GET /api/sensor-data/latest ─────────────────────────────────────────────
-router.get('/sensor-data/latest', (req, res) => {
-  const latest = sensorHistory[sensorHistory.length - 1] || null;
-  if (!latest) return res.status(404).json({ error: 'No data yet' });
-  res.json(latest);
+router.get('/sensor-data/latest', async (req, res) => {
+  try {
+    const history = await telemetry.find(100);
+    const latest = history[history.length - 1] || null;
+    if (!latest) return res.status(404).json({ error: 'No data yet' });
+    res.json(latest);
+  } catch (err) {
+    console.error('Error fetching latest telemetry:', err);
+    res.status(500).json({ error: 'Failed to fetch latest telemetry' });
+  }
 });
 
 
@@ -125,7 +135,7 @@ function analysePlantHealth(data) {
 }
 
 // ─── Internal Auto-Simulation Loop (Runs always to keep telemetry alive) ─────
-function generateAutoTelemetry() {
+async function generateAutoTelemetry() {
   const timestamp = new Date().toISOString();
   // Generate random stable normal parameters
   const temp = +(22 + Math.random() * 4).toFixed(1);
@@ -148,16 +158,29 @@ function generateAutoTelemetry() {
 
   payload.analysis = analysePlantHealth(payload);
 
-  sensorHistory.push(payload);
-  if (sensorHistory.length > MAX_HISTORY) {
-    sensorHistory.shift();
+  try {
+    await telemetry.create(payload);
+  } catch (err) {
+    console.error('Auto-simulation DB save failed:', err);
   }
 }
 
 // Generate 15 initial history readings immediately so charts look populated on startup
-for (let i = 0; i < 15; i++) {
-  generateAutoTelemetry();
+async function seedInitialTelemetry() {
+  try {
+    const existing = await telemetry.find(5);
+    if (existing.length === 0) {
+      console.log('[SENSOR] Seeding 15 initial sensor readings into database...');
+      for (let i = 0; i < 15; i++) {
+        await generateAutoTelemetry();
+      }
+    }
+  } catch (err) {
+    console.error('Error seeding initial telemetry:', err);
+  }
 }
+
+seedInitialTelemetry();
 
 // Auto-run every 5 seconds to keep the telemetry timeline ticking
 setInterval(generateAutoTelemetry, 5000);

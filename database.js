@@ -27,6 +27,7 @@ if (!fs.existsSync(FALLBACK_DB_PATH)) {
       }
     ],
     predictions: [],
+    telemetry: [],
     settings: {}
   }, null, 2));
 }
@@ -140,6 +141,41 @@ module.exports = {
         }
         // Return reverse chronological order
         return results.slice().reverse();
+      }
+    }
+  },
+
+  telemetry: {
+    async create(telemetryData) {
+      if (isUsingMongoose) {
+        const Telemetry = mongoose.model('Telemetry');
+        const newRecord = new Telemetry(telemetryData);
+        return await newRecord.save();
+      } else {
+        const db = readFallbackDB();
+        if (!db.telemetry) db.telemetry = [];
+        const newRecord = {
+          id: 'tel_' + Math.random().toString(36).substring(2, 11),
+          createdAt: new Date().toISOString(),
+          ...telemetryData
+        };
+        db.telemetry.push(newRecord);
+        // Limit in-memory/JSON fallback file to 100 items to prevent ballooning size
+        if (db.telemetry.length > 100) {
+          db.telemetry.shift();
+        }
+        writeFallbackDB(db);
+        return newRecord;
+      }
+    },
+    async find(limit = 100) {
+      if (isUsingMongoose) {
+        const Telemetry = mongoose.model('Telemetry');
+        return await Telemetry.find({}).sort({ timestamp: 1 }).limit(limit);
+      } else {
+        const db = readFallbackDB();
+        if (!db.telemetry) db.telemetry = [];
+        return db.telemetry;
       }
     }
   }
