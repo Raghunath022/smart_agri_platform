@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Admin Admin",
+      "email": "admin@agriai.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "farmer-1",
+      "name": "Ram Kumar",
+      "email": "ram@agriai.com",
+      "password": "farmerpassword",
+      "role": "farmer"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "pred_82rrtz0zl",
+      "createdAt": "2026-06-11T05:43:10.341Z",
+      "userId": "farmer-1",
+      "inputs": {
+        "N": 70,
+        "P": 45,
+        "K": 30,
+        "ph": 6.2,
+        "temperature": 23.7,
+        "humidity": 48,
+        "rainfall": 95
+      },
+      "weather": {
+        "temperature": 23.7,
+        "humidity": 48,
+        "rainfall": 95,
+        "source": "AgriAI Meteorologist (Simulated)"
+      },
+      "market": {
+        "commodity": "maize",
+        "state": "Tamil Nadu",
+        "min": 1836,
+        "max": 2244,
+        "modal": 2091,
+        "unit": "Quintal",
+        "source": "Agmarknet (Simulated)"
+      },
+      "recommendation": {
+        "crop": "maize",
+        "confidence": 0.5115364423654567,
+        "alternatives": [
+          {
+            "crop": "coffee",
+            "distance": 1.7248285715945557,
+            "confidence": 0.3669955645741064
+          },
+          {
+            "crop": "mothbeans",
+            "distance": 1.9572010038467254,
+            "confidence": 0.3381576019686185
+          }
+        ]
+      },
+      "state": "Tamil Nadu",
+      "district": "Coimbatore"
+    },
+    {
+      "id": "pred_bvvalfxrb",
+      "createdAt": "2026-06-12T04:49:13.195Z",
+      "userId": "farmer-1",
+      "inputs": {
+        "N": 60,
+        "P": 50,
+        "K": 40,
+        "ph": 6.4,
+        "temperature": 26.3,
+        "humidity": 51,
+        "rainfall": 137
+      },
+      "weather": {
+        "temperature": 26.3,
+        "humidity": 51,
+        "rainfall": 137,
+        "source": "AgriAI Meteorologist (Simulated)"
+      },
+      "market": {
+        "commodity": "coffee",
+        "state": "Tamil Nadu",
+        "min": 14280,
+        "max": 22440,
+        "modal": 18870,
+        "unit": "Quintal",
+        "source": "Agmarknet (Simulated)"
+      },
+      "recommendation": {
+        "crop": "coffee",
+        "confidence": 0.4037643542234923,
+        "alternatives": [
+          {
+            "crop": "pigeonpeas",
+            "distance": 1.583529164890024,
+            "confidence": 0.38706743225117346
+          },
+          {
+            "crop": "jute",
+            "distance": 1.6268203800505558,
+            "confidence": 0.38068838189109605
+          }
+        ]
+      },
+      "state": "Tamil Nadu",
+      "district": "General"
+    },
+    {
+      "id": "pred_5jzkh44br",
+      "createdAt": "2026-06-12T04:49:42.701Z",
+      "userId": "farmer-1",
+      "inputs": {
+        "N": 60,
+        "P": 50,
+        "K": 40,
+        "ph": 6.4,
+        "temperature": 30.2,
+        "humidity": 55,
+        "rainfall": 150
+      },
+      "weather": {
+        "temperature": 30.2,
+        "humidity": 55,
+        "rainfall": 150,
+        "source": "AgriAI Meteorologist (Simulated)"
+      },
+      "market": {
+        "commodity": "pigeonpeas",
+        "state": "Tamil Nadu",
+        "min": 6120,
+        "max": 7956,
+        "modal": 7140,
+        "unit": "Quintal",
+        "source": "Agmarknet (Simulated)"
+      },
+      "recommendation": {
+        "crop": "pigeonpeas",
+        "confidence": 0.36909781558393995,
+        "alternatives": [
+          {
+            "crop": "coffee",
+            "distance": 1.721956589181165,
+            "confidence": 0.3673827877985468
+          },
+          {
+            "crop": "jute",
+            "distance": 1.8052386940331246,
+            "confidence": 0.3564759042170092
+          }
+        ]
+      },
+      "state": "Tamil Nadu",
+      "district": "trichy"
+    },
+    {
+      "id": "pred_86k5mx8jt",
+      "createdAt": "2026-06-12T04:50:01.073Z",
+      "userId": "farmer-1",
+      "inputs": {
+        "N": 102,
+        "P": 27,
+        "K": 116,
+        "ph": 5.1,
+        "temperature": 28.8,
+        "humidity": 59,
+        "rainfall": 132
+      },
+      "weather": {
+        "temperature": 28.8,
+        "humidity": 59,
+        "rainfall": 132,
+        "source": "AgriAI Meteorologist (Simulated)"
+      },
+      "market": {
+        "commodity": "banana",
+        "state": "Tamil Nadu",
+        "min": 1530,
+        "max": 3060,
+        "modal": 2244,
+        "unit": "Quintal",
+        "source": "Agmarknet (Simulated)"
+      },
+      "recommendation": {
+        "crop": "banana",
+        "confidence": 0.2766233855993916,
+        "alternatives": [
+          {
+            "crop": "coffee",
+            "distance": 2.827257944710766,
+            "confidence": 0.26128366952167165
+          },
+          {
+            "crop": "watermelon",
+            "distance": 2.9669303408173646,
+            "confidence": 0.2520840836831925
+          }
+        ]
+      },
+      "state": "Tamil Nadu",
+      "district": "trichy"
+    }
+  ],
+  "settings": {}
+}
