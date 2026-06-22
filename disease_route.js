@@ -118,6 +118,7 @@ router.post('/scan', upload.single('image'), (req, res) => {
   if (!req.file) {
     return res.status(400).json({ error: 'Please upload an image file.' });
   }
+  const imagePath = req.file.path;
 
   let pythonPath = path.join(__dirname, '.venv', 'Scripts', 'python.exe');
   if (!fs.existsSync(pythonPath)) {
