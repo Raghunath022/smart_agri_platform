@@ -205,5 +205,3607 @@
       "district": "trichy"
     }
   ],
-  "settings": {}
+  "settings": {},
+  "telemetry": [
+    {
+      "id": "tel_yy8dai42f",
+      "createdAt": "2026-06-12T12:06:15.440Z",
+      "timestamp": "2026-06-12T12:06:15.439Z",
+      "received_at": "2026-06-12T12:06:15.439Z",
+      "temperature_humidity": {
+        "temperature_c": 22.3,
+        "humidity_percent": 73.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 110,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 86
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.11
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_j4x1hodnx",
+      "createdAt": "2026-06-12T12:06:20.452Z",
+      "timestamp": "2026-06-12T12:06:20.450Z",
+      "received_at": "2026-06-12T12:06:20.450Z",
+      "temperature_humidity": {
+        "temperature_c": 22.5,
+        "humidity_percent": 73.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 114,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 98
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.28
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_fnh1xhtlf",
+      "createdAt": "2026-06-12T12:06:25.458Z",
+      "timestamp": "2026-06-12T12:06:25.457Z",
+      "received_at": "2026-06-12T12:06:25.457Z",
+      "temperature_humidity": {
+        "temperature_c": 26,
+        "humidity_percent": 63.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 27,
+        "potassium_mg_kg": 91
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.1
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_7t941u9h6",
+      "createdAt": "2026-06-12T12:06:30.459Z",
+      "timestamp": "2026-06-12T12:06:30.458Z",
+      "received_at": "2026-06-12T12:06:30.458Z",
+      "temperature_humidity": {
+        "temperature_c": 22.7,
+        "humidity_percent": 63.7
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 99
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.23
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_iggj0lkke",
+      "createdAt": "2026-06-12T12:06:35.471Z",
+      "timestamp": "2026-06-12T12:06:35.470Z",
+      "received_at": "2026-06-12T12:06:35.470Z",
+      "temperature_humidity": {
+        "temperature_c": 22.3,
+        "humidity_percent": 69.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 129,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 86
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.01
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_qvc7v3d9m",
+      "createdAt": "2026-06-12T12:06:40.475Z",
+      "timestamp": "2026-06-12T12:06:40.474Z",
+      "received_at": "2026-06-12T12:06:40.474Z",
+      "temperature_humidity": {
+        "temperature_c": 25,
+        "humidity_percent": 69
+      },
+      "npk": {
+        "nitrogen_mg_kg": 114,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 93
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.61
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_gbs91guih",
+      "createdAt": "2026-06-12T12:06:45.476Z",
+      "timestamp": "2026-06-12T12:06:45.474Z",
+      "received_at": "2026-06-12T12:06:45.474Z",
+      "temperature_humidity": {
+        "temperature_c": 22.8,
+        "humidity_percent": 70.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 129,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 94
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.76
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_xit3ul8ny",
+      "createdAt": "2026-06-12T12:06:50.490Z",
+      "timestamp": "2026-06-12T12:06:50.488Z",
+      "received_at": "2026-06-12T12:06:50.488Z",
+      "temperature_humidity": {
+        "temperature_c": 22.5,
+        "humidity_percent": 62.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 126,
+        "phosphorus_mg_kg": 28,
+        "potassium_mg_kg": 89
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.27
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_w5lnzjblq",
+      "createdAt": "2026-06-12T12:06:55.492Z",
+      "timestamp": "2026-06-12T12:06:55.491Z",
+      "received_at": "2026-06-12T12:06:55.491Z",
+      "temperature_humidity": {
+        "temperature_c": 24,
+        "humidity_percent": 73.7
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 104
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.73
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_m0udhouph",
+      "createdAt": "2026-06-12T12:07:00.508Z",
+      "timestamp": "2026-06-12T12:07:00.506Z",
+      "received_at": "2026-06-12T12:07:00.506Z",
+      "temperature_humidity": {
+        "temperature_c": 23.1,
+        "humidity_percent": 63.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 112,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_pion7ubot",
+      "createdAt": "2026-06-12T12:07:05.514Z",
+      "timestamp": "2026-06-12T12:07:05.513Z",
+      "received_at": "2026-06-12T12:07:05.513Z",
+      "temperature_humidity": {
+        "temperature_c": 24,
+        "humidity_percent": 64.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 112,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 99
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.23
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_h5vf39ljb",
+      "createdAt": "2026-06-12T12:07:10.524Z",
+      "timestamp": "2026-06-12T12:07:10.523Z",
+      "received_at": "2026-06-12T12:07:10.523Z",
+      "temperature_humidity": {
+        "temperature_c": 22.8,
+        "humidity_percent": 62.1
+      },
+      "npk": {
+        "nitrogen_mg_kg": 119,
+        "phosphorus_mg_kg": 28,
+        "potassium_mg_kg": 104
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.57
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_p0x9t0yly",
+      "createdAt": "2026-06-12T12:07:15.529Z",
+      "timestamp": "2026-06-12T12:07:15.528Z",
+      "received_at": "2026-06-12T12:07:15.528Z",
+      "temperature_humidity": {
+        "temperature_c": 23.2,
+        "humidity_percent": 64.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 125,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 86
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.06
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_who9e0cqb",
+      "createdAt": "2026-06-12T12:07:20.534Z",
+      "timestamp": "2026-06-12T12:07:20.532Z",
+      "received_at": "2026-06-12T12:07:20.532Z",
+      "temperature_humidity": {
+        "temperature_c": 25.3,
+        "humidity_percent": 64.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 115,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 102
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.39
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_ue8f335oa",
+      "createdAt": "2026-06-12T12:07:25.535Z",
+      "timestamp": "2026-06-12T12:07:25.533Z",
+      "received_at": "2026-06-12T12:07:25.533Z",
+      "temperature_humidity": {
+        "temperature_c": 23.8,
+        "humidity_percent": 71.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 115,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 98
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.8
+      },
+      "bioelectrical": {
+        "voltage_mv": 50,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_raw7ht2lf",
+      "createdAt": "2026-06-12T12:07:30.541Z",
+      "timestamp": "2026-06-12T12:07:30.540Z",
+      "received_at": "2026-06-12T12:07:30.540Z",
+      "temperature_humidity": {
+        "temperature_c": 23.4,
+        "humidity_percent": 65
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 100
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.93
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_13q23faaz",
+      "createdAt": "2026-06-12T12:07:35.552Z",
+      "timestamp": "2026-06-12T12:07:35.551Z",
+      "received_at": "2026-06-12T12:07:35.551Z",
+      "temperature_humidity": {
+        "temperature_c": 22.3,
+        "humidity_percent": 72.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 34,
+        "potassium_mg_kg": 98
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.38
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_6he63dlfb",
+      "createdAt": "2026-06-12T12:07:40.563Z",
+      "timestamp": "2026-06-12T12:07:40.561Z",
+      "received_at": "2026-06-12T12:07:40.561Z",
+      "temperature_humidity": {
+        "temperature_c": 25.8,
+        "humidity_percent": 65
+      },
+      "npk": {
+        "nitrogen_mg_kg": 122,
+        "phosphorus_mg_kg": 34,
+        "potassium_mg_kg": 98
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.18
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_5bf7gifpf",
+      "createdAt": "2026-06-12T12:07:45.574Z",
+      "timestamp": "2026-06-12T12:07:45.573Z",
+      "received_at": "2026-06-12T12:07:45.573Z",
+      "temperature_humidity": {
+        "temperature_c": 23.8,
+        "humidity_percent": 65.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 119,
+        "phosphorus_mg_kg": 30,
+        "potassium_mg_kg": 102
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.27
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_r8xybf1i6",
+      "createdAt": "2026-06-12T12:07:50.583Z",
+      "timestamp": "2026-06-12T12:07:50.581Z",
+      "received_at": "2026-06-12T12:07:50.581Z",
+      "temperature_humidity": {
+        "temperature_c": 22.7,
+        "humidity_percent": 61.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 119,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 102
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.28
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_ft1seul97",
+      "createdAt": "2026-06-12T12:07:55.593Z",
+      "timestamp": "2026-06-12T12:07:55.592Z",
+      "received_at": "2026-06-12T12:07:55.592Z",
+      "temperature_humidity": {
+        "temperature_c": 22.1,
+        "humidity_percent": 60.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 28,
+        "potassium_mg_kg": 98
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.05
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_feqabw14j",
+      "createdAt": "2026-06-12T12:08:00.603Z",
+      "timestamp": "2026-06-12T12:08:00.601Z",
+      "received_at": "2026-06-12T12:08:00.601Z",
+      "temperature_humidity": {
+        "temperature_c": 22.8,
+        "humidity_percent": 74.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 27,
+        "potassium_mg_kg": 102
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.64
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_16kja3ffl",
+      "createdAt": "2026-06-12T12:08:05.610Z",
+      "timestamp": "2026-06-12T12:08:05.608Z",
+      "received_at": "2026-06-12T12:08:05.608Z",
+      "temperature_humidity": {
+        "temperature_c": 22.6,
+        "humidity_percent": 70.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 28,
+        "potassium_mg_kg": 98
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.29
+      },
+      "bioelectrical": {
+        "voltage_mv": 50,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_rmlpmq3of",
+      "createdAt": "2026-06-12T12:08:10.620Z",
+      "timestamp": "2026-06-12T12:08:10.619Z",
+      "received_at": "2026-06-12T12:08:10.619Z",
+      "temperature_humidity": {
+        "temperature_c": 24.3,
+        "humidity_percent": 69.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 129,
+        "phosphorus_mg_kg": 27,
+        "potassium_mg_kg": 88
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.72
+      },
+      "bioelectrical": {
+        "voltage_mv": 45,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_lk8d1knlo",
+      "createdAt": "2026-06-12T12:08:15.632Z",
+      "timestamp": "2026-06-12T12:08:15.631Z",
+      "received_at": "2026-06-12T12:08:15.631Z",
+      "temperature_humidity": {
+        "temperature_c": 22.3,
+        "humidity_percent": 65.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 125,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 89
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.03
+      },
+      "bioelectrical": {
+        "voltage_mv": 45,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_2kdwlgweu",
+      "createdAt": "2026-06-12T12:08:20.634Z",
+      "timestamp": "2026-06-12T12:08:20.632Z",
+      "received_at": "2026-06-12T12:08:20.632Z",
+      "temperature_humidity": {
+        "temperature_c": 25.5,
+        "humidity_percent": 66.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 112,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.29
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_pw5qu1kj5",
+      "createdAt": "2026-06-12T12:08:25.648Z",
+      "timestamp": "2026-06-12T12:08:25.647Z",
+      "received_at": "2026-06-12T12:08:25.647Z",
+      "temperature_humidity": {
+        "temperature_c": 22.4,
+        "humidity_percent": 74.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 115,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 97
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.12
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_gp0khjq9q",
+      "createdAt": "2026-06-12T12:08:30.658Z",
+      "timestamp": "2026-06-12T12:08:30.657Z",
+      "received_at": "2026-06-12T12:08:30.657Z",
+      "temperature_humidity": {
+        "temperature_c": 23.3,
+        "humidity_percent": 74.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 90
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.26
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_09zuzuboz",
+      "createdAt": "2026-06-12T12:08:35.673Z",
+      "timestamp": "2026-06-12T12:08:35.672Z",
+      "received_at": "2026-06-12T12:08:35.672Z",
+      "temperature_humidity": {
+        "temperature_c": 23.1,
+        "humidity_percent": 64.7
+      },
+      "npk": {
+        "nitrogen_mg_kg": 127,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.81
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_v2gsmryo0",
+      "createdAt": "2026-06-12T12:08:40.682Z",
+      "timestamp": "2026-06-12T12:08:40.680Z",
+      "received_at": "2026-06-12T12:08:40.680Z",
+      "temperature_humidity": {
+        "temperature_c": 22.4,
+        "humidity_percent": 63.2
+      },
+      "npk": {
+        "nitrogen_mg_kg": 110,
+        "phosphorus_mg_kg": 27,
+        "potassium_mg_kg": 85
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.82
+      },
+      "bioelectrical": {
+        "voltage_mv": 50,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_uejcjzk84",
+      "createdAt": "2026-06-12T12:08:45.686Z",
+      "timestamp": "2026-06-12T12:08:45.685Z",
+      "received_at": "2026-06-12T12:08:45.685Z",
+      "temperature_humidity": {
+        "temperature_c": 22,
+        "humidity_percent": 72.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 120,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 99
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.9
+      },
+      "bioelectrical": {
+        "voltage_mv": 50,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_zv8gjm4fo",
+      "createdAt": "2026-06-12T12:08:50.696Z",
+      "timestamp": "2026-06-12T12:08:50.695Z",
+      "received_at": "2026-06-12T12:08:50.695Z",
+      "temperature_humidity": {
+        "temperature_c": 24,
+        "humidity_percent": 70
+      },
+      "npk": {
+        "nitrogen_mg_kg": 122,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 95
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.43
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_bfmp0fxvd",
+      "createdAt": "2026-06-12T12:08:55.700Z",
+      "timestamp": "2026-06-12T12:08:55.699Z",
+      "received_at": "2026-06-12T12:08:55.699Z",
+      "temperature_humidity": {
+        "temperature_c": 24.1,
+        "humidity_percent": 65.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 124,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 85
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.93
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_ib75ppb9u",
+      "createdAt": "2026-06-12T12:09:00.702Z",
+      "timestamp": "2026-06-12T12:09:00.701Z",
+      "received_at": "2026-06-12T12:09:00.701Z",
+      "temperature_humidity": {
+        "temperature_c": 22.9,
+        "humidity_percent": 62.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 127,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 101
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.23
+      },
+      "bioelectrical": {
+        "voltage_mv": 50,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_oazt41xoy",
+      "createdAt": "2026-06-12T12:09:05.715Z",
+      "timestamp": "2026-06-12T12:09:05.714Z",
+      "received_at": "2026-06-12T12:09:05.714Z",
+      "temperature_humidity": {
+        "temperature_c": 24.6,
+        "humidity_percent": 62
+      },
+      "npk": {
+        "nitrogen_mg_kg": 124,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 90
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.26
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_x8xgpoxns",
+      "createdAt": "2026-06-12T12:09:10.720Z",
+      "timestamp": "2026-06-12T12:09:10.719Z",
+      "received_at": "2026-06-12T12:09:10.719Z",
+      "temperature_humidity": {
+        "temperature_c": 23.6,
+        "humidity_percent": 64.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 119,
+        "phosphorus_mg_kg": 30,
+        "potassium_mg_kg": 102
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.38
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_invrjdsx9",
+      "createdAt": "2026-06-12T12:09:15.733Z",
+      "timestamp": "2026-06-12T12:09:15.732Z",
+      "received_at": "2026-06-12T12:09:15.732Z",
+      "temperature_humidity": {
+        "temperature_c": 23.9,
+        "humidity_percent": 60.1
+      },
+      "npk": {
+        "nitrogen_mg_kg": 126,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 89
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.63
+      },
+      "bioelectrical": {
+        "voltage_mv": 50,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_rqa6kryeh",
+      "createdAt": "2026-06-12T12:09:20.748Z",
+      "timestamp": "2026-06-12T12:09:20.747Z",
+      "received_at": "2026-06-12T12:09:20.747Z",
+      "temperature_humidity": {
+        "temperature_c": 24,
+        "humidity_percent": 74.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 126,
+        "phosphorus_mg_kg": 30,
+        "potassium_mg_kg": 89
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.93
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_yh0j13ub",
+      "createdAt": "2026-06-12T12:09:25.760Z",
+      "timestamp": "2026-06-12T12:09:25.759Z",
+      "received_at": "2026-06-12T12:09:25.759Z",
+      "temperature_humidity": {
+        "temperature_c": 23.4,
+        "humidity_percent": 67.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 91
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.73
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_nibhfqcxa",
+      "createdAt": "2026-06-12T12:09:30.769Z",
+      "timestamp": "2026-06-12T12:09:30.768Z",
+      "received_at": "2026-06-12T12:09:30.768Z",
+      "temperature_humidity": {
+        "temperature_c": 24.5,
+        "humidity_percent": 61.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 102
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.56
+      },
+      "bioelectrical": {
+        "voltage_mv": 45,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_8ge87e765",
+      "createdAt": "2026-06-12T12:09:35.771Z",
+      "timestamp": "2026-06-12T12:09:35.770Z",
+      "received_at": "2026-06-12T12:09:35.770Z",
+      "temperature_humidity": {
+        "temperature_c": 26,
+        "humidity_percent": 62.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 118,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 104
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.6
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_m0pq4hflf",
+      "createdAt": "2026-06-12T12:09:40.773Z",
+      "timestamp": "2026-06-12T12:09:40.771Z",
+      "received_at": "2026-06-12T12:09:40.771Z",
+      "temperature_humidity": {
+        "temperature_c": 24.4,
+        "humidity_percent": 71.7
+      },
+      "npk": {
+        "nitrogen_mg_kg": 111,
+        "phosphorus_mg_kg": 30,
+        "potassium_mg_kg": 99
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.73
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_sylnvdm2w",
+      "createdAt": "2026-06-12T12:09:45.774Z",
+      "timestamp": "2026-06-12T12:09:45.773Z",
+      "received_at": "2026-06-12T12:09:45.773Z",
+      "temperature_humidity": {
+        "temperature_c": 23.6,
+        "humidity_percent": 71.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 118,
+        "phosphorus_mg_kg": 28,
+        "potassium_mg_kg": 103
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.85
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_3vax0fqkx",
+      "createdAt": "2026-06-12T12:09:50.786Z",
+      "timestamp": "2026-06-12T12:09:50.785Z",
+      "received_at": "2026-06-12T12:09:50.785Z",
+      "temperature_humidity": {
+        "temperature_c": 22.7,
+        "humidity_percent": 72.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 93
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.34
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_ilca0dbpo",
+      "createdAt": "2026-06-12T12:09:55.794Z",
+      "timestamp": "2026-06-12T12:09:55.792Z",
+      "received_at": "2026-06-12T12:09:55.792Z",
+      "temperature_humidity": {
+        "temperature_c": 24.1,
+        "humidity_percent": 60.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 96
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.81
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_yer7ns3rq",
+      "createdAt": "2026-06-12T12:10:00.807Z",
+      "timestamp": "2026-06-12T12:10:00.805Z",
+      "received_at": "2026-06-12T12:10:00.805Z",
+      "temperature_humidity": {
+        "temperature_c": 23.6,
+        "humidity_percent": 73.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 117,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 96
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.02
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_gr6c4nb6s",
+      "createdAt": "2026-06-12T12:10:05.808Z",
+      "timestamp": "2026-06-12T12:10:05.807Z",
+      "received_at": "2026-06-12T12:10:05.807Z",
+      "temperature_humidity": {
+        "temperature_c": 23.4,
+        "humidity_percent": 69.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 117,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 96
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.89
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_nv3s8g5cc",
+      "createdAt": "2026-06-12T12:10:10.812Z",
+      "timestamp": "2026-06-12T12:10:10.811Z",
+      "received_at": "2026-06-12T12:10:10.811Z",
+      "temperature_humidity": {
+        "temperature_c": 24.9,
+        "humidity_percent": 62.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 124,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 98
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.71
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_6gs2mfkvf",
+      "createdAt": "2026-06-12T12:10:15.818Z",
+      "timestamp": "2026-06-12T12:10:15.817Z",
+      "received_at": "2026-06-12T12:10:15.817Z",
+      "temperature_humidity": {
+        "temperature_c": 24.6,
+        "humidity_percent": 66.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 122,
+        "phosphorus_mg_kg": 27,
+        "potassium_mg_kg": 98
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.14
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_ledelx3da",
+      "createdAt": "2026-06-12T12:10:20.832Z",
+      "timestamp": "2026-06-12T12:10:20.830Z",
+      "received_at": "2026-06-12T12:10:20.830Z",
+      "temperature_humidity": {
+        "temperature_c": 23.8,
+        "humidity_percent": 62.7
+      },
+      "npk": {
+        "nitrogen_mg_kg": 123,
+        "phosphorus_mg_kg": 34,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.95
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_ohfiwdl0j",
+      "createdAt": "2026-06-12T12:10:25.847Z",
+      "timestamp": "2026-06-12T12:10:25.846Z",
+      "received_at": "2026-06-12T12:10:25.846Z",
+      "temperature_humidity": {
+        "temperature_c": 23,
+        "humidity_percent": 63.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 124,
+        "phosphorus_mg_kg": 34,
+        "potassium_mg_kg": 101
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.57
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_xv16ebk5b",
+      "createdAt": "2026-06-12T12:10:30.850Z",
+      "timestamp": "2026-06-12T12:10:30.849Z",
+      "received_at": "2026-06-12T12:10:30.849Z",
+      "temperature_humidity": {
+        "temperature_c": 22.6,
+        "humidity_percent": 74.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 103
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.6
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_rjtebdpo5",
+      "createdAt": "2026-06-12T12:10:35.859Z",
+      "timestamp": "2026-06-12T12:10:35.858Z",
+      "received_at": "2026-06-12T12:10:35.858Z",
+      "temperature_humidity": {
+        "temperature_c": 25.1,
+        "humidity_percent": 74.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 34,
+        "potassium_mg_kg": 88
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.24
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_m80pnc9e3",
+      "createdAt": "2026-06-12T12:10:40.860Z",
+      "timestamp": "2026-06-12T12:10:40.859Z",
+      "received_at": "2026-06-12T12:10:40.859Z",
+      "temperature_humidity": {
+        "temperature_c": 24.8,
+        "humidity_percent": 63
+      },
+      "npk": {
+        "nitrogen_mg_kg": 125,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 88
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.41
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_t2z93pjjb",
+      "createdAt": "2026-06-12T12:10:45.873Z",
+      "timestamp": "2026-06-12T12:10:45.871Z",
+      "received_at": "2026-06-12T12:10:45.871Z",
+      "temperature_humidity": {
+        "temperature_c": 22.1,
+        "humidity_percent": 60.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 111,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 96
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.63
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_mcw6fccdi",
+      "createdAt": "2026-06-12T12:10:50.881Z",
+      "timestamp": "2026-06-12T12:10:50.879Z",
+      "received_at": "2026-06-12T12:10:50.879Z",
+      "temperature_humidity": {
+        "temperature_c": 23.6,
+        "humidity_percent": 75
+      },
+      "npk": {
+        "nitrogen_mg_kg": 110,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 97
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.25
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_kkmi1kob0",
+      "createdAt": "2026-06-12T12:10:55.880Z",
+      "timestamp": "2026-06-12T12:10:55.879Z",
+      "received_at": "2026-06-12T12:10:55.879Z",
+      "temperature_humidity": {
+        "temperature_c": 22.2,
+        "humidity_percent": 60.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 119,
+        "phosphorus_mg_kg": 28,
+        "potassium_mg_kg": 100
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.92
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_wfl5bzvpp",
+      "createdAt": "2026-06-12T12:11:00.885Z",
+      "timestamp": "2026-06-12T12:11:00.883Z",
+      "received_at": "2026-06-12T12:11:00.883Z",
+      "temperature_humidity": {
+        "temperature_c": 22.5,
+        "humidity_percent": 66.1
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 104
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.01
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_7a7km9768",
+      "createdAt": "2026-06-12T12:11:05.886Z",
+      "timestamp": "2026-06-12T12:11:05.885Z",
+      "received_at": "2026-06-12T12:11:05.885Z",
+      "temperature_humidity": {
+        "temperature_c": 23.3,
+        "humidity_percent": 72.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 100
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.63
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_v6ud5yk4h",
+      "createdAt": "2026-06-12T12:11:10.900Z",
+      "timestamp": "2026-06-12T12:11:10.898Z",
+      "received_at": "2026-06-12T12:11:10.898Z",
+      "temperature_humidity": {
+        "temperature_c": 23.2,
+        "humidity_percent": 64.7
+      },
+      "npk": {
+        "nitrogen_mg_kg": 113,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 85
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.64
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_aauf9avaq",
+      "createdAt": "2026-06-12T12:11:15.900Z",
+      "timestamp": "2026-06-12T12:11:15.898Z",
+      "received_at": "2026-06-12T12:11:15.898Z",
+      "temperature_humidity": {
+        "temperature_c": 22.9,
+        "humidity_percent": 64.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 119,
+        "phosphorus_mg_kg": 27,
+        "potassium_mg_kg": 88
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.67
+      },
+      "bioelectrical": {
+        "voltage_mv": 50,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_5ok8boa6r",
+      "createdAt": "2026-06-12T12:11:20.913Z",
+      "timestamp": "2026-06-12T12:11:20.912Z",
+      "received_at": "2026-06-12T12:11:20.912Z",
+      "temperature_humidity": {
+        "temperature_c": 23.5,
+        "humidity_percent": 70.1
+      },
+      "npk": {
+        "nitrogen_mg_kg": 111,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 94
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.4
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_5nia9l336",
+      "createdAt": "2026-06-12T12:11:25.923Z",
+      "timestamp": "2026-06-12T12:11:25.922Z",
+      "received_at": "2026-06-12T12:11:25.922Z",
+      "temperature_humidity": {
+        "temperature_c": 25.5,
+        "humidity_percent": 63.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 117,
+        "phosphorus_mg_kg": 30,
+        "potassium_mg_kg": 88
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.9
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_wd7dq57ty",
+      "createdAt": "2026-06-12T12:11:30.923Z",
+      "timestamp": "2026-06-12T12:11:30.922Z",
+      "received_at": "2026-06-12T12:11:30.922Z",
+      "temperature_humidity": {
+        "temperature_c": 25.7,
+        "humidity_percent": 65.1
+      },
+      "npk": {
+        "nitrogen_mg_kg": 111,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.17
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_472kyyg4j",
+      "createdAt": "2026-06-12T12:11:35.937Z",
+      "timestamp": "2026-06-12T12:11:35.936Z",
+      "received_at": "2026-06-12T12:11:35.936Z",
+      "temperature_humidity": {
+        "temperature_c": 24.8,
+        "humidity_percent": 67.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 125,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 89
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.15
+      },
+      "bioelectrical": {
+        "voltage_mv": 45,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_a6zgib0a3",
+      "createdAt": "2026-06-12T12:11:40.944Z",
+      "timestamp": "2026-06-12T12:11:40.943Z",
+      "received_at": "2026-06-12T12:11:40.943Z",
+      "temperature_humidity": {
+        "temperature_c": 23,
+        "humidity_percent": 61.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 127,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 100
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.99
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_wremxvnak",
+      "createdAt": "2026-06-12T12:11:45.953Z",
+      "timestamp": "2026-06-12T12:11:45.951Z",
+      "received_at": "2026-06-12T12:11:45.951Z",
+      "temperature_humidity": {
+        "temperature_c": 22.1,
+        "humidity_percent": 74.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 129,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.71
+      },
+      "bioelectrical": {
+        "voltage_mv": 45,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_33bd2qntb",
+      "createdAt": "2026-06-12T12:11:50.963Z",
+      "timestamp": "2026-06-12T12:11:50.962Z",
+      "received_at": "2026-06-12T12:11:50.962Z",
+      "temperature_humidity": {
+        "temperature_c": 25.3,
+        "humidity_percent": 70
+      },
+      "npk": {
+        "nitrogen_mg_kg": 115,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 100
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.15
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_hqsnjv0tm",
+      "createdAt": "2026-06-12T12:11:55.970Z",
+      "timestamp": "2026-06-12T12:11:55.969Z",
+      "received_at": "2026-06-12T12:11:55.969Z",
+      "temperature_humidity": {
+        "temperature_c": 22.6,
+        "humidity_percent": 74.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 129,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 97
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.09
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_ezigluki2",
+      "createdAt": "2026-06-12T12:12:00.984Z",
+      "timestamp": "2026-06-12T12:12:00.982Z",
+      "received_at": "2026-06-12T12:12:00.982Z",
+      "temperature_humidity": {
+        "temperature_c": 25.7,
+        "humidity_percent": 61.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 129,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 103
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.84
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_nfs6zs04v",
+      "createdAt": "2026-06-12T12:12:05.989Z",
+      "timestamp": "2026-06-12T12:12:05.988Z",
+      "received_at": "2026-06-12T12:12:05.988Z",
+      "temperature_humidity": {
+        "temperature_c": 25.7,
+        "humidity_percent": 60.7
+      },
+      "npk": {
+        "nitrogen_mg_kg": 126,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 104
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.06
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_8ezo614xz",
+      "createdAt": "2026-06-12T12:12:10.998Z",
+      "timestamp": "2026-06-12T12:12:10.997Z",
+      "received_at": "2026-06-12T12:12:10.997Z",
+      "temperature_humidity": {
+        "temperature_c": 23.7,
+        "humidity_percent": 65
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 101
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.5
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_vobpn6mhz",
+      "createdAt": "2026-06-12T12:12:16.013Z",
+      "timestamp": "2026-06-12T12:12:16.012Z",
+      "received_at": "2026-06-12T12:12:16.012Z",
+      "temperature_humidity": {
+        "temperature_c": 24.9,
+        "humidity_percent": 66.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 126,
+        "phosphorus_mg_kg": 26,
+        "potassium_mg_kg": 86
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.46
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_6qogzma1c",
+      "createdAt": "2026-06-12T12:12:21.017Z",
+      "timestamp": "2026-06-12T12:12:21.016Z",
+      "received_at": "2026-06-12T12:12:21.016Z",
+      "temperature_humidity": {
+        "temperature_c": 23.4,
+        "humidity_percent": 73.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 100
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.56
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_iqihi7x3c",
+      "createdAt": "2026-06-12T12:12:26.030Z",
+      "timestamp": "2026-06-12T12:12:26.028Z",
+      "received_at": "2026-06-12T12:12:26.028Z",
+      "temperature_humidity": {
+        "temperature_c": 22.7,
+        "humidity_percent": 63.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 111,
+        "phosphorus_mg_kg": 28,
+        "potassium_mg_kg": 99
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.75
+      },
+      "bioelectrical": {
+        "voltage_mv": 45,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_x2x6a07n9",
+      "createdAt": "2026-06-12T12:12:31.037Z",
+      "timestamp": "2026-06-12T12:12:31.036Z",
+      "received_at": "2026-06-12T12:12:31.036Z",
+      "temperature_humidity": {
+        "temperature_c": 24.6,
+        "humidity_percent": 71.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 110,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 94
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.91
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_imvhdxf8l",
+      "createdAt": "2026-06-12T12:12:36.051Z",
+      "timestamp": "2026-06-12T12:12:36.050Z",
+      "received_at": "2026-06-12T12:12:36.050Z",
+      "temperature_humidity": {
+        "temperature_c": 23.8,
+        "humidity_percent": 74.2
+      },
+      "npk": {
+        "nitrogen_mg_kg": 110,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 86
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.98
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_3i0ry4lll",
+      "createdAt": "2026-06-12T12:12:41.052Z",
+      "timestamp": "2026-06-12T12:12:41.051Z",
+      "received_at": "2026-06-12T12:12:41.051Z",
+      "temperature_humidity": {
+        "temperature_c": 23.5,
+        "humidity_percent": 65.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 114,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 97
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.33
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_kjrufaplc",
+      "createdAt": "2026-06-12T12:12:46.058Z",
+      "timestamp": "2026-06-12T12:12:46.057Z",
+      "received_at": "2026-06-12T12:12:46.057Z",
+      "temperature_humidity": {
+        "temperature_c": 25.4,
+        "humidity_percent": 60.6
+      },
+      "npk": {
+        "nitrogen_mg_kg": 127,
+        "phosphorus_mg_kg": 34,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.7
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_vcv8elrfe",
+      "createdAt": "2026-06-12T12:12:51.067Z",
+      "timestamp": "2026-06-12T12:12:51.066Z",
+      "received_at": "2026-06-12T12:12:51.066Z",
+      "temperature_humidity": {
+        "temperature_c": 24,
+        "humidity_percent": 67
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 27,
+        "potassium_mg_kg": 104
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.56
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_6793g5rxf",
+      "createdAt": "2026-06-12T12:12:56.074Z",
+      "timestamp": "2026-06-12T12:12:56.073Z",
+      "received_at": "2026-06-12T12:12:56.073Z",
+      "temperature_humidity": {
+        "temperature_c": 25.6,
+        "humidity_percent": 67
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 32,
+        "potassium_mg_kg": 104
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.24
+      },
+      "bioelectrical": {
+        "voltage_mv": 45,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_2h962gjkv",
+      "createdAt": "2026-06-12T12:13:01.081Z",
+      "timestamp": "2026-06-12T12:13:01.080Z",
+      "received_at": "2026-06-12T12:13:01.080Z",
+      "temperature_humidity": {
+        "temperature_c": 23.8,
+        "humidity_percent": 63.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 112,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 90
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.78
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_fcojn8vcz",
+      "createdAt": "2026-06-12T12:13:06.094Z",
+      "timestamp": "2026-06-12T12:13:06.093Z",
+      "received_at": "2026-06-12T12:13:06.093Z",
+      "temperature_humidity": {
+        "temperature_c": 25.2,
+        "humidity_percent": 73.3
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 99
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.36
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_wf9rdbx73",
+      "createdAt": "2026-06-12T12:13:11.096Z",
+      "timestamp": "2026-06-12T12:13:11.095Z",
+      "received_at": "2026-06-12T12:13:11.095Z",
+      "temperature_humidity": {
+        "temperature_c": 22.1,
+        "humidity_percent": 71.2
+      },
+      "npk": {
+        "nitrogen_mg_kg": 116,
+        "phosphorus_mg_kg": 27,
+        "potassium_mg_kg": 91
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.06
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_0hxza1nh6",
+      "createdAt": "2026-06-12T12:13:16.097Z",
+      "timestamp": "2026-06-12T12:13:16.095Z",
+      "received_at": "2026-06-12T12:13:16.095Z",
+      "temperature_humidity": {
+        "temperature_c": 24.7,
+        "humidity_percent": 74.1
+      },
+      "npk": {
+        "nitrogen_mg_kg": 128,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 92
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.32
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_xfsbthgc1",
+      "createdAt": "2026-06-12T12:13:21.108Z",
+      "timestamp": "2026-06-12T12:13:21.107Z",
+      "received_at": "2026-06-12T12:13:21.107Z",
+      "temperature_humidity": {
+        "temperature_c": 24.6,
+        "humidity_percent": 66
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 101
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.32
+      },
+      "bioelectrical": {
+        "voltage_mv": 48,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_x0zqjtoa9",
+      "createdAt": "2026-06-12T12:13:26.120Z",
+      "timestamp": "2026-06-12T12:13:26.118Z",
+      "received_at": "2026-06-12T12:13:26.118Z",
+      "temperature_humidity": {
+        "temperature_c": 24.8,
+        "humidity_percent": 64.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 95
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.79
+      },
+      "bioelectrical": {
+        "voltage_mv": 49,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_dcsj91hki",
+      "createdAt": "2026-06-12T12:13:31.136Z",
+      "timestamp": "2026-06-12T12:13:31.134Z",
+      "received_at": "2026-06-12T12:13:31.134Z",
+      "temperature_humidity": {
+        "temperature_c": 24.2,
+        "humidity_percent": 65.1
+      },
+      "npk": {
+        "nitrogen_mg_kg": 117,
+        "phosphorus_mg_kg": 30,
+        "potassium_mg_kg": 103
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.28
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_n6d8lm2a2",
+      "createdAt": "2026-06-12T12:13:36.136Z",
+      "timestamp": "2026-06-12T12:13:36.135Z",
+      "received_at": "2026-06-12T12:13:36.135Z",
+      "temperature_humidity": {
+        "temperature_c": 23.5,
+        "humidity_percent": 66.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 114,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 85
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.95
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_rgyib1dov",
+      "createdAt": "2026-06-12T12:13:41.143Z",
+      "timestamp": "2026-06-12T12:13:41.142Z",
+      "received_at": "2026-06-12T12:13:41.142Z",
+      "temperature_humidity": {
+        "temperature_c": 24.4,
+        "humidity_percent": 68.5
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 95
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.19
+      },
+      "bioelectrical": {
+        "voltage_mv": 53,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_af136f9vt",
+      "createdAt": "2026-06-12T12:13:46.146Z",
+      "timestamp": "2026-06-12T12:13:46.145Z",
+      "received_at": "2026-06-12T12:13:46.145Z",
+      "temperature_humidity": {
+        "temperature_c": 23.7,
+        "humidity_percent": 68
+      },
+      "npk": {
+        "nitrogen_mg_kg": 110,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 93
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.05
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_r6b2nbnju",
+      "createdAt": "2026-06-12T12:13:51.155Z",
+      "timestamp": "2026-06-12T12:13:51.154Z",
+      "received_at": "2026-06-12T12:13:51.154Z",
+      "temperature_humidity": {
+        "temperature_c": 24.8,
+        "humidity_percent": 70
+      },
+      "npk": {
+        "nitrogen_mg_kg": 124,
+        "phosphorus_mg_kg": 34,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.85
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_nswtsj1xz",
+      "createdAt": "2026-06-12T12:13:56.157Z",
+      "timestamp": "2026-06-12T12:13:56.156Z",
+      "received_at": "2026-06-12T12:13:56.156Z",
+      "temperature_humidity": {
+        "temperature_c": 24.6,
+        "humidity_percent": 65.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 121,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 85
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.62
+      },
+      "bioelectrical": {
+        "voltage_mv": 51,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_mtilrozt7",
+      "createdAt": "2026-06-12T12:14:01.168Z",
+      "timestamp": "2026-06-12T12:14:01.167Z",
+      "received_at": "2026-06-12T12:14:01.167Z",
+      "temperature_humidity": {
+        "temperature_c": 24.8,
+        "humidity_percent": 71
+      },
+      "npk": {
+        "nitrogen_mg_kg": 115,
+        "phosphorus_mg_kg": 28,
+        "potassium_mg_kg": 88
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.76
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_d1383xldx",
+      "createdAt": "2026-06-12T12:14:06.178Z",
+      "timestamp": "2026-06-12T12:14:06.177Z",
+      "received_at": "2026-06-12T12:14:06.177Z",
+      "temperature_humidity": {
+        "temperature_c": 25.1,
+        "humidity_percent": 60.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 114,
+        "phosphorus_mg_kg": 29,
+        "potassium_mg_kg": 85
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 6.88
+      },
+      "bioelectrical": {
+        "voltage_mv": 46,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_hsg4xo7r4",
+      "createdAt": "2026-06-12T12:14:11.186Z",
+      "timestamp": "2026-06-12T12:14:11.185Z",
+      "received_at": "2026-06-12T12:14:11.185Z",
+      "temperature_humidity": {
+        "temperature_c": 24.8,
+        "humidity_percent": 65.8
+      },
+      "npk": {
+        "nitrogen_mg_kg": 115,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 93
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.41
+      },
+      "bioelectrical": {
+        "voltage_mv": 47,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_myrcssq0i",
+      "createdAt": "2026-06-12T12:14:16.197Z",
+      "timestamp": "2026-06-12T12:14:16.196Z",
+      "received_at": "2026-06-12T12:14:16.196Z",
+      "temperature_humidity": {
+        "temperature_c": 23.1,
+        "humidity_percent": 65.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 110,
+        "phosphorus_mg_kg": 33,
+        "potassium_mg_kg": 87
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.13
+      },
+      "bioelectrical": {
+        "voltage_mv": 50,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_i0tab37tv",
+      "createdAt": "2026-06-12T12:14:21.202Z",
+      "timestamp": "2026-06-12T12:14:21.200Z",
+      "received_at": "2026-06-12T12:14:21.200Z",
+      "temperature_humidity": {
+        "temperature_c": 23.6,
+        "humidity_percent": 68.4
+      },
+      "npk": {
+        "nitrogen_mg_kg": 119,
+        "phosphorus_mg_kg": 31,
+        "potassium_mg_kg": 102
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.43
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_lv4kpxptn",
+      "createdAt": "2026-06-12T12:14:26.213Z",
+      "timestamp": "2026-06-12T12:14:26.212Z",
+      "received_at": "2026-06-12T12:14:26.212Z",
+      "temperature_humidity": {
+        "temperature_c": 22.3,
+        "humidity_percent": 62.2
+      },
+      "npk": {
+        "nitrogen_mg_kg": 114,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 92
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.1
+      },
+      "bioelectrical": {
+        "voltage_mv": 52,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tel_mc0pz91t8",
+      "createdAt": "2026-06-12T12:14:31.227Z",
+      "timestamp": "2026-06-12T12:14:31.226Z",
+      "received_at": "2026-06-12T12:14:31.226Z",
+      "temperature_humidity": {
+        "temperature_c": 23.7,
+        "humidity_percent": 74.9
+      },
+      "npk": {
+        "nitrogen_mg_kg": 126,
+        "phosphorus_mg_kg": 25,
+        "potassium_mg_kg": 100
+      },
+      "dissolved_oxygen": {
+        "do_mg_l": 7.5
+      },
+      "bioelectrical": {
+        "voltage_mv": 54,
+        "plant_status": "Healthy"
+      },
+      "analysis": {
+        "severity": "normal",
+        "plant_status": "Healthy",
+        "primary_suggestion": {
+          "code": "HEALTHY",
+          "text": "All parameters normal. Plant is healthy."
+        },
+        "all_suggestions": [
+          {
+            "code": "HEALTHY",
+            "text": "All parameters within healthy range."
+          }
+        ]
+      }
+    }
+  ]
 }

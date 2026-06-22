@@ -76,6 +76,35 @@ const TelemetrySchema = new mongoose.Schema({
   }
 });
 
+// Logistics & Rentals Schema
+const LogisticsSchema = new mongoose.Schema({
+  providerId: { type: String, required: true },
+  resourceType: { type: String, enum: ['tractor', 'harvester', 'labor'], required: true },
+  status: { type: String, enum: ['available', 'booked'], default: 'available' },
+  pricePerDay: { type: Number, required: true },
+  location: {
+    type: { type: String, default: 'Point' },
+    coordinates: { type: [Number], required: true } // [longitude, latitude]
+  },
+  rating: {
+    average: { type: Number, default: 0 },
+    count: { type: Number, default: 0 }
+  }
+});
+LogisticsSchema.index({ location: "2dsphere" });
+
+// Schemes Schema
+const SchemeSchema = new mongoose.Schema({
+  title: { type: String, required: true },
+  description: { type: String, required: true },
+  eligibility: {
+    states: [String],
+    maxAcreage: Number,
+    targetCrops: [String]
+  },
+  sourceUrl: String
+});
+
 // Register models
 if (!mongoose.models.User) {
   mongoose.model('User', UserSchema);
@@ -86,9 +115,17 @@ if (!mongoose.models.Prediction) {
 if (!mongoose.models.Telemetry) {
   mongoose.model('Telemetry', TelemetrySchema);
 }
+if (!mongoose.models.Logistics) {
+  mongoose.model('Logistics', LogisticsSchema);
+}
+if (!mongoose.models.Scheme) {
+  mongoose.model('Scheme', SchemeSchema);
+}
 
 module.exports = {
   UserSchema,
   PredictionSchema,
-  TelemetrySchema
+  TelemetrySchema,
+  LogisticsSchema,
+  SchemeSchema
 };

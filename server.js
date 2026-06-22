@@ -18,6 +18,9 @@ app.use(express.json());
 // Sensor telemetry route integration
 app.use('/api', require('./sensor_route'));
 
+// Leaf disease scanner route integration
+app.use('/api/disease', require('./disease_route'));
+
 // Basic health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ status: 'healthy', timestamp: new Date() });
@@ -117,7 +120,37 @@ app.post('/api/predict', authenticateToken, async (req, res) => {
       rainfall: weather.rainfall
     };
 
-    const mlOutput = predictCrop(mlInputs);
+    let mlOutput;
+    try {
+      const { exec } = require('child_process');
+      const path = require('path');
+      const scriptPath = path.join(__dirname, 'python', 'predict_crop.py');
+      
+      mlOutput = await new Promise((resolve, reject) => {
+        exec(`python "${scriptPath}" '${JSON.stringify(mlInputs)}'`, (error, stdout, stderr) => {
+          if (error) {
+            console.error('Python Error:', error, stderr);
+            reject(error);
+            return;
+          }
+          try {
+            const result = JSON.parse(stdout);
+            if (result.error) return reject(new Error(result.error));
+            resolve({
+              crop: result.recommended_crop,
+              confidence: result.confidence === "High" ? 0.92 : 0.65,
+              recommendations: [result.recommended_crop]
+            });
+          } catch (e) {
+            reject(e);
+          }
+        });
+      });
+    } catch (mlError) {
+      console.warn("Python execution failed, falling back to local heuristic model.", mlError);
+      const { predictCrop } = require('./services/ml');
+      mlOutput = predictCrop(mlInputs);
+    }
 
     // 3. Fetch eNAM Market Price for the recommended crop in that state
     const market = await getMarketPrice(selectedState, mlOutput.crop);
@@ -131,7 +164,7 @@ app.post('/api/predict', authenticateToken, async (req, res) => {
       recommendation: {
         crop: mlOutput.crop,
         confidence: mlOutput.confidence,
-        alternatives: mlOutput.recommendations.slice(1)
+        alternatives: mlOutput.recommendations ? mlOutput.recommendations.slice(1) : []
       },
       state: selectedState,
       district: district || 'General'
@@ -174,6 +207,21 @@ app.get('/api/market', async (req, res) => {
     }
     const price = await getMarketPrice(state, commodity);
     res.json(price);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Market forecast proxy endpoint (ML ARIMA)
+app.get('/api/market/forecast', async (req, res) => {
+  try {
+    const { state, commodity } = req.query;
+    if (!state || !commodity) {
+      return res.status(400).json({ error: 'State and commodity parameters are required' });
+    }
+    const { getMarketForecast } = require('./services/market');
+    const forecast = await getMarketForecast(state, commodity);
+    res.json(forecast);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
