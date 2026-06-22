@@ -9,6 +9,8 @@ WORKDIR /app
 # Install Python dependencies for the ML scripts
 COPY python_reqs.txt ./
 RUN pip install --no-cache-dir -r python_reqs.txt
+# Try installing PyTorch CPU, but do not fail the build if it runs out of memory on the free tier
+RUN pip install --no-cache-dir torch torchvision --extra-index-url https://download.pytorch.org/whl/cpu || echo "Warning: PyTorch install failed, using fallback mode"
 
 # Install Node.js dependencies
 COPY package*.json ./
